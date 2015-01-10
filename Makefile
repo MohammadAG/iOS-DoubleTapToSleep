@@ -4,6 +4,7 @@ TWEAK_NAME = DoubleTapToSleep
 DoubleTapToSleep_FILES = Tweak.xm
 DoubleTapToSleep_FRAMEWORKS = UIKit
 DoubleTapToSleep_PRIVATE_FRAMEWORKS = GraphicsServices
+DoubleTapToSleep_LIBRARIES = activator
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
