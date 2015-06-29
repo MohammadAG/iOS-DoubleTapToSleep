@@ -1,7 +1,7 @@
 Package: com.mohammadag.doubletaptosleep
 Name: DoubleTapToSleep
-Depends: mobilesubstrate, libactivator
-Version: 1.1
+Depends: mobilesubstrate
+Version: 1.1.1
 Architecture: iphoneos-arm
 Description: Double tap your home or lock screen to lock your device, or anything else.
 Maintainer: Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>

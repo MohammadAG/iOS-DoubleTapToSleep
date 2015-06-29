@@ -141,3 +141,13 @@ static DoubleTapEventSource *myDataSource;
 }
 
 %end
+
+%hook SBLockScreenNotificationTableView
+
+%new
+-(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    handleTouches(touches);
+}
+
+%end
